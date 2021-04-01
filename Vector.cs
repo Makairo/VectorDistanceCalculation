@@ -15,9 +15,9 @@ namespace VectorDistanceCalculation
 
         public Vector()
         {
-            X = rando.Next(1, 101);
-            Y = rando.Next(1, 101);
-            Z = rando.Next(1, 101);
+            X = rando.Next(1, 1001);
+            Y = rando.Next(1, 1001);
+            Z = rando.Next(1, 1001);
         }
         public Vector(int x = 0, int y = 0, int z = 0)
         {
